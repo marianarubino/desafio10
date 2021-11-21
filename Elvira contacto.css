@@ -1,0 +1,84 @@
+header {
+    font-size: 25px; font-family: cursive; background-color: plum; margin: 0px;height:200px ;
+    display: flex;    
+     
+}
+
+img.logoheader {
+    padding-left: 10px;padding-top: 10px;
+}
+.marca {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    
+    width: 800px;
+}
+
+.nombre {
+    font-size: 30px;
+    width: 800px;
+    margin-left: 100px;
+    margin-top: 50px;
+    justify-content:space-around ;
+    text-align: center;
+
+    
+}
+
+.slogan{
+    margin-top: 1px;
+    margin-left: 150px;
+    justify-content:space-around ;
+    text-align: center;
+}
+
+nav {
+    height: 30px;
+    background-color: rgba(230, 184, 220, 0.916);
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.menu {
+    display: flex;
+    font-family: cursive; }
+
+.btn1, .btn2, .btn3, .btn4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    
+}
+
+
+
+section {
+    background-color: #a6f3c7;
+    font-family: 'Dancing Script', cursive;
+    height: 600px ;
+    text-align: center;
+  
+}
+.consulta, .atencion, .marketing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+footer{
+    height: 60px;
+    background-color: plum;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+

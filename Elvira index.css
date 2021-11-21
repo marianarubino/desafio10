@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding:0px;}
+
+#principal {
+    width: 960px;
+    height: 900px;
+    margin: 0px auto;
+    background: black;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+header{
+    width: 960px;
+    height: 200px;
+    background: plum;
+    font-size: 25px;
+    display: flex;
+    
+    
+    
+}
+
+header .logoheader {
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 10px;
+   float: right;
+ }
+
+div #texto {
+    clear: right;
+} 
+
+h1, .slogan, .slogan1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav{
+    width: 960px;
+    height: 30px;
+    background-color: rgba(230, 184, 220, 0.916);
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.btn1, .btn2, .btn3, .btn4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px; }
+
+
+a:hover {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+section {
+    width: 560px;
+    height: 600px;
+    background-color: #a6f3c7;
+    float: left;
+}
+
+.tarjeta1, .tarjeta2, .tarjeta3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+aside {
+    width: 400px;
+    height: 600px;
+    background: rgb(152, 32, 152);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.descrip1, .descrip2 {
+    width: 300px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+
+
+.sonajeros {
+    width: 100px;}
+
+footer{
+    width: 959px;
+    height: 60px;
+    background: plum;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logofooter {
+    height: 60px; ;
+}
